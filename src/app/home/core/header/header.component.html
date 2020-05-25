@@ -1,0 +1,68 @@
+<!-- header -->
+<div class="header">
+    <div class="container">
+        <div class="w3layouts_logo">
+            <a target="_parent" href="http://localhost:4200/#/trang-chu" style="display: inline-block;">
+                <img alt="" src="/uploads/images/logo.png" style="height: 4.2em;">
+            </a>
+        </div>
+        <div id="formSearch" class="w3_search" style="position:relative;">
+            <input type="text" id="searchComic" name="string" placeholder="Tên truyện / Tác giả" required="" >
+            <img id="preload_livesearch" src="" alt=" " style="display:none; max-height: 40px; position: absolute;"/>
+            <input id="formSearchSubmit" type="submit" value="Go">
+            <ul class="list-group" id="result"></ul>
+        </div>
+                    <div class="w3l_sign_in_register">
+                <ul>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#myModal">Đăng nhập</a>
+                    </li>
+                    <li>
+                        <a target="_parent" href="#" target="_blank">Đăng ký</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            </div>
+</div>
+<!-- //header -->
+
+<!-- bootstrap-pop-up -->
+<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                Đăng ký
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <section>
+                <div class="modal-body">
+                    <div class="w3_login_module">
+                        <div class="module form-module">
+                            <div class="toggle">
+                                <i class="fa fa-times fa-pencil"></i>
+                                <div class="tooltip"></div>
+                            </div>
+                            <div class="form">
+                                <h3>Đăng ký tài khoản</h3>
+                                <form action="" method="post">
+                                    <input type="text" id="username" name="_username" placeholder="Username" required="">
+                                    <input type="password" id="password" name="_password" placeholder="Password" required="">
+                                    <input type="checkbox" id="remember_me" name="_remember_me" value="on"> 
+                                    <label for="remember_me">Ghi nhớ</label>
+                                    <input type="submit" value="Login">
+                                </form>
+                            </div>
+                            <div class="cta">
+                                <a target="_parent" href="">Quên mật khẩu?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!-- //bootstrap-pop-up -->
